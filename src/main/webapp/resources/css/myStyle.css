@@ -1,0 +1,21 @@
+.content,.footer {
+        width: 100%;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      @media (min-width: 1400px) {
+        .content,
+        .footer {
+          max-width: 1320px;
+        }
+      }       
+      
+      @media (min-width: 1400px) {
+        .content,
+        .footer {
+          max-width: 1320px;
+        }
+      }

@@ -1,0 +1,148 @@
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  color: black !important;
+}
+
+a.active {
+  color: #377dff !important;
+}
+
+.card-index {
+  max-width: 20rem;
+  margin: 15px 0px 0px 15px;
+  width: 23%;
+}
+
+.card-index .card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.above {
+  background: url("../img/demo1.jpg");
+  height: 200px;
+}
+
+.above h1 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content-course {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.label {
+  margin-top: 15px;
+}
+
+.save-btn {
+  margin-top: 15px;
+  max-width: 150px;
+}
+
+.add-question {
+  margin-top: 15px;
+  max-width: 150px;
+}
+
+.answers {
+  margin-top: 15px;
+}
+
+.answers .input-group {
+  margin-top: 15px;
+}
+
+.more-course {
+  background: #eff0f2;
+  height: 400px;
+  overflow: auto;
+}
+
+.more-course .title {
+  padding: 15px 0;
+}
+
+.more-course .title h1 {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
+
+.more-course .course-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  border-top: 1px solid #c4c4c4;
+}
+
+.more-course .course-card .course-img {
+  padding: 0;
+}
+
+.more-course .course-card .course-img img {
+  width: 100%;
+  height: 70px;
+}
+
+.more-course .course-card .course-title {
+  font-size: 15px;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #dadada #999999;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #828282;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.btn-add-course {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card {
+    max-width: none;
+    width: 45%;
+  }
+}
+/*# sourceMappingURL=phong.css.map */
